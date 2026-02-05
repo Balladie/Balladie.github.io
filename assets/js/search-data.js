@@ -458,6 +458,13 @@ ninja.data = [{
           window.open("mailto:%73%73%6F%6E%70%75%6C%6C%35%31%39@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/gangin-park-4b83911a4", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
