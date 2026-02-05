@@ -458,11 +458,11 @@ ninja.data = [{
           window.open("mailto:%73%73%6F%6E%70%75%6C%6C%35%31%39@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-custom_social',
+        title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/gangin-park-4b83911a4", "_blank");
+          window.open("https://www.linkedin.com/in/gangin-park-4b83911a4/", "_blank");
         },
       },{
       id: 'light-theme',
