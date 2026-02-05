@@ -16,11 +16,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-block-diffusion-for-discrete-speech-generation",
+        },{id: "post-block-causal-distillation-for-discrete-speech-generation",
         
-          title: "Block Diffusion for Discrete Speech Generation",
+          title: "Block-Causal Distillation for Discrete Speech Generation",
         
-        description: "I have explored how to leverage from block causality applied to the existing autoregressive discrete token-based text-to-speech models. The method accelerates the inference speed of the exising TTS models up to x1.5~x2 times compared to the original in a model-native way, while getting minimal degradation on speech quality and zero-shot capability.",
+        description: "",
         section: "Posts",
         handler: () => {
           
