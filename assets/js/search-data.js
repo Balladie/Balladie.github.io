@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-block-causal-distillation-for-discrete-speech-generation",
+        },{id: "post-block-distillation-for-discrete-speech-generation",
         
-          title: "Block-Causal Distillation for Discrete Speech Generation",
+          title: "Block Distillation for Discrete Speech Generation",
         
         description: "",
         section: "Posts",
