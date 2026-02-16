@@ -20,7 +20,7 @@ ninja.data = [{
         
           title: "Block Distillation for Discrete Speech Generation",
         
-        description: "I had a quick (and very straightforward) exploration on how autoregressive speech synthesis could leverage from block-causality applied to the latest discrete text-to-speech models. Despite their low-confidence outputs, it accelerates the inference speed up to x1.5~x2 times compared to the original in a model-native way (without any further optimization), while getting less degradation on speech quality and zero-shot capability than naively fine-tuning it. All the existing models of similar mechanism like hybrid architecture could be accelerated in the same way, in a data-free manner that does not require real labels.",
+        description: "I had a quick (and very straightforward) exploration on how autoregressive speech synthesis could leverage from block-causality applied to the latest discrete text-to-speech models. Despite their low-confidence outputs, it accelerates the inference speed up to x1.5~x2 times compared to the original in a model-native way (without any further optimization), while getting less degradation on speech quality and zero-shot capability than naive supervised fine-tuning. All the existing models of similar mechanism like hybrid architecture could be accelerated in the same way, in a data-free manner that does not require real labels.",
         section: "Posts",
         handler: () => {
           
