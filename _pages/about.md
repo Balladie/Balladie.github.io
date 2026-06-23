@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Student at Seoul National University, expected to graduate at Feb 2026. 
+Research Engineer, working on generative models.
 
 My work has been mainly focused on applied research & engineering of generative models across domains, including but not limited to visual and audio space.
 
