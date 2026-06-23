@@ -16,11 +16,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-block-distillation-for-discrete-speech-generation",
+        },{id: "post-a-simple-exploration-of-discrete-diffusion-distillation-for-tts",
         
-          title: "Block Distillation for Discrete Speech Generation",
+          title: "A Simple Exploration of Discrete Diffusion Distillation for TTS",
         
-        description: "I had a quick (and very straightforward) exploration on how autoregressive speech synthesis could leverage from block-causality applied to the latest discrete text-to-speech models. Despite their low-confidence outputs, it accelerates the inference speed up to x2~3 times compared to the original in a model-native way (without any further optimization), while getting less degradation on speech quality and zero-shot capability than naive supervised fine-tuning. All the existing models of similar mechanism like hybrid architecture could be accelerated in the same way, in a data-free manner that does not require real labels.",
+        description: "I had a quick exploration on how autoregressive speech synthesis could leverage from block-causality applied to the latest discrete text-to-speech (TTS) models. Despite their low-confidence outputs, with only a simple distillation, it shows a trade-off point of the inference speed up to x2~3 times compared to the original without any further optimization with minimal degradation on speech quality and zero-shot capability.",
         section: "Posts",
         handler: () => {
           
